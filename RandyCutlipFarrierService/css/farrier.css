@@ -1,0 +1,89 @@
+/* Remove the jumbotron's default bottom margin */
+.jumbotron
+{
+    margin-bottom: 0;
+    background-color: #39b7cd;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+.navbar
+{
+    margin-bottom: 50px;
+    border-radius: 0;
+    background-color: #595043;
+}
+   
+body
+{
+    background-color: #DAD5C1;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer 
+{
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+    
+/*
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+    }
+*/
+
+
+
+/* Everything below is for the photogallery page */
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+/* Styles for the gallery */
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img {
+    border-radius: 2px;
+}
+
+.tz-gallery .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
