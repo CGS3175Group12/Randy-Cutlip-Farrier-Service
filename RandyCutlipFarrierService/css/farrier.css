@@ -131,3 +131,22 @@ footer
 	height: 300px;
 }
 /* Hoofcare Page ^ */
+
+/* About */
+ #titled{
+     font-family: "Verdana";
+     font-weight: bold;
+     font-size: 1.9em;
+}
+#aboutbody{
+    font-size: 1.2em;        
+    line-height: 2;
+    color: #231709;
+}
+#highlight{
+    background-color: #73AC5D; 
+    line-height:2;
+    color: #231709;
+    letter-spacing: 2px;          
+}
+/*About ^*/
