@@ -88,6 +88,70 @@ footer
     margin: 0;
 }
 
+/* Hoofcare Page */
+
+#hed{ /* "Our Hoofcare Options" */
+	font-size: 35pt;
+	text-align: center;
+	padding-bottom: 20px;
+	font-family: "sans-serif";
+}
+#description{ /* Description */
+	font-size: 20pt;
+	color: black;
+	background-color: #39b7cd;
+	box-sizing: border-box;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	padding: 20px;
+	font-family: "sans-serif";
+}	
+#list{ /* List of options */
+	padding-top: 20px;
+	font-size: 20pt;
+	color: #595043;
+	columns: 2;
+	column-gap: 45px;
+	font-family: "sans-serif";
+}
+#img1{
+	float: center;
+	padding-left: 150px;
+	padding-bottom: 50px;
+	width: 500px;
+	height: 300px;
+}
+#img2{
+	float: center;
+	padding-left: 250px;
+	padding-bottom: 50px;
+	width: 575px;
+	height: 300px;
+}
+/* Hoofcare Page ^ */
+
+
+/* About */
+ #titled{
+     font-family: "Verdana";
+     font-weight: bold;
+     font-size: 1.9em;
+}
+#aboutbody{
+    font-size: 1.2em;        
+    line-height: 2;
+    color: #231709;
+}
+#highlight{
+    background-color: #73AC5D; 
+    line-height:2;
+    color: #231709;
+    letter-spacing: 2px;          
+}
+/*About ^*/	
+
 @media only screen and (max-width: 64em)
 {
 	.jumbotron
@@ -149,21 +213,3 @@ footer
 	
 }
 
-/* About */
- #titled{
-     font-family: "Verdana";
-     font-weight: bold;
-     font-size: 1.9em;
-}
-#aboutbody{
-    font-size: 1.2em;        
-    line-height: 2;
-    color: #231709;
-}
-#highlight{
-    background-color: #73AC5D; 
-    line-height:2;
-    color: #231709;
-    letter-spacing: 2px;          
-}
-/*About ^*/	
