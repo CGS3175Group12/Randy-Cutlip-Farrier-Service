@@ -1,16 +1,63 @@
 /* Remove the jumbotron's default bottom margin */
+/* Original Color: #39b7cd */
 .jumbotron
 {
     margin-bottom: 0;
-    background-color: #39b7cd;
+    background-color: #779981;
+    padding: 1px;
 }
 
 /* Remove the navbar's default rounded borders and increase the bottom margin */
+/*Original background-color: #595043*/
 .navbar
 {
     margin-bottom: 50px;
     border-radius: 0;
-    background-color: #595043;
+    background-color: #38281C;
+    
+}
+
+
+/*nav bar font color, style, etc.*/
+.navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a, .navbar .nav > li.current-menu-ancestor > a {
+    color:          #779981;                        
+    font-family:    "Verdana", sans-serif;
+    font-weight: bold;
+     margin-left: auto;
+    margin-right: auto;
+    width: 100%;   
+}
+
+/* This was used for RCFS / Logo, so commented out for now
+.navbar-brand {
+    /*font-weight: bold;*/
+    /*!important needed for it for change color*/
+    /*color: #779981 !important;
+    font-size: 2em;*/
+    
+/*}*/
+
+
+.active a{
+    /*wouldnt change without !important tag to give it highest priority*/
+    background-color: #282017 !important;
+    color: #779981 !important;
+}
+
+.navbar-inverse{
+      
+    /*makes tab labels all uppercase*/
+    text-transform: uppercase;
+    /*center tabs on page*/
+    float: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar .navbar-collapse{
+    text-align: center;
 }
    
 body
@@ -40,6 +87,7 @@ footer
     background-color: transparent !important;
 }
 
+/*Original: #58595a*/
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
@@ -47,6 +95,7 @@ footer
     font-weight: bold;
     color: #58595a;
 }
+
 
 .gallery-container p.page-description {
     text-align: center;
@@ -145,7 +194,7 @@ footer
     color: #231709;
 }
 #highlight{
-    background-color: #73AC5D; 
+    background-color: #779981; 
     line-height:2;
     color: #231709;
     letter-spacing: 2px;          
@@ -157,9 +206,11 @@ footer
 	.jumbotron
     {
         margin-bottom: 0;
-        background-color: #39b7cd;
         width: auto;
         min-width: 0;
+        /*changed background color to match rest*/
+        background-color: #779981;
+    
     }
     
     .jumbotron .container img
@@ -168,6 +219,7 @@ footer
         height: 80%;
     }
     
+   
     /*
 	#wrapper
 	{
@@ -189,9 +241,14 @@ footer
     .jumbotron
     {
         margin-bottom: 0;
-        background-color: #39b7cd;
+        /*changed background color to match rest*/
+        background-color: #779981;
         width: auto;
         min-width: 0;
+        float: right;
+        display: flex;
+        justify-content: right;
+        
     }
     
     .jumbotron .container img
@@ -199,6 +256,8 @@ footer
         width: 90%;
         height: 80%;
     }
+    
+    
 	
     /*
 	main
