@@ -59,6 +59,10 @@
 .navbar .navbar-collapse{
     text-align: center;
 }
+
+.navbar-toggle
+{
+}
    
 body
 {
@@ -219,7 +223,18 @@ footer
         height: 80%;
     }
     
-   
+    .navbar-inverse
+    {
+        /*makes tab labels all uppercase*/
+        text-transform: uppercase;
+        /*center tabs on page*/
+        float: none;
+        display: inline-block;
+        align-content: right;
+        width: 100%;
+    
+    }
+    
     /*
 	#wrapper
 	{
@@ -257,7 +272,17 @@ footer
         height: 80%;
     }
     
+    .navbar-inverse
+    {
+        /*makes tab labels all uppercase*/
+        text-transform: uppercase;
+        /*center tabs on page*/
+        float: none;
+        display: inline-block;
+        align-content: right;
+        width: 100%;
     
+    }
 	
     /*
 	main
@@ -271,4 +296,3 @@ footer
     */
 	
 }
-
