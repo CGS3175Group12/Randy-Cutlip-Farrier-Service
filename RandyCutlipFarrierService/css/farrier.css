@@ -38,7 +38,6 @@
     
 /*}*/
 
-
 .active a{
     /*wouldnt change without !important tag to give it highest priority*/
     background-color: #282017 !important;
@@ -83,6 +82,45 @@ footer
       margin: auto;
     }
 */
+
+
+/* Img on homepage*/
+#imghome
+{
+    width: 25%;
+    padding-left: 60px;
+    border-style: groove;
+    border-color: #779981;
+}
+
+#HomepageTexta
+{
+    float: left;
+    text-align: center;
+    font-family: cursive;
+    width: 33%;
+    font-size: 20pt;
+    padding-right: 100px;
+    padding-left: 60px;
+    border: 10px;
+    border-style: groove;
+    border-color: #779981;
+    background-color: #39b7cd;
+}
+
+#HomepageTextb
+{
+    float: right;
+    font-family: cursive;
+    width: 33%;
+    text-align: center;
+    padding-right: 100px;
+    font-size: 20pt;
+    border: 10px;
+    border-style: groove;
+    border-color: #779981;
+    background-color: #39b7cd;
+}
 
 
 
@@ -248,6 +286,8 @@ footer
 	{
 		margin: 0;
 	}
+    
+    
 	
 }
 
@@ -294,5 +334,6 @@ footer
 		font-size: 90%;
 	}
     */
-	
+
+    
 }
