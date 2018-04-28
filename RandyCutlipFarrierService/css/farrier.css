@@ -87,10 +87,9 @@ footer
 /* Img on homepage*/
 #imghome
 {
-    width: 25%;
-    padding-left: 60px;
-    border-style: groove;
-    border-color: #779981;
+    align-content: center;
+    width: 500px;
+    padding-left: 18px;
 }
 
 #HomepageTexta
@@ -104,8 +103,8 @@ footer
     padding-left: 60px;
     border: 10px;
     border-style: groove;
-    border-color: #779981;
-    background-color: #39b7cd;
+    border-color: #38281C;
+    background-color: #779981;
 }
 
 #HomepageTextb
@@ -118,8 +117,8 @@ footer
     font-size: 20pt;
     border: 10px;
     border-style: groove;
-    border-color: #779981;
-    background-color: #39b7cd;
+    border-color: #38281C;
+    background-color: #779981;
 }
 
 
