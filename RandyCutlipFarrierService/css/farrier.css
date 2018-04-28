@@ -190,7 +190,7 @@ footer
 #description{ /* Description */
 	font-size: 20pt;
 	color: black;
-	background-color: #39b7cd;
+	background-color: #779981;
 	box-sizing: border-box;
     border-top-style: solid;
     border-right-style: solid;
@@ -201,10 +201,23 @@ footer
 }	
 #list{ /* List of options */
 	padding-top: 20px;
+	padding-bottom: 20px;
 	font-size: 20pt;
-	color: #595043;
+	color: #38281C;
 	columns: 2;
 	column-gap: 45px;
+	font-family: "sans-serif";
+}
+#description2{ /* 2nd Description */
+	font-size: 20pt;
+	color: black;
+	background-color: #779981;
+	box-sizing: border-box;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+	padding: 20px;
 	font-family: "sans-serif";
 }
 #img1{
