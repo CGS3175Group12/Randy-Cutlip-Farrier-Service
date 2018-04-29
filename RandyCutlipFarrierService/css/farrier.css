@@ -99,24 +99,24 @@ footer
     /*position: relative;
     float: left;*/
     text-align: center;
-    font-family: cursive;
+    font-family: "Verdana";
     /*width: 500px;
     height: 220px;*/
     font-size: 20pt;
-    padding-right: 100px;
-    padding-left: 60px;
+   /* padding-right: 100px;
+    padding-left: 60px;*/
     border: 10px;
     border-style: groove;
     border-color: #38281C;
     background-color: #779981;
+    /*margin-left: 15px;*/
 }
 
 #HomepageTextb
 {
-    
     /*position: relative;
     float: right;*/
-    font-family: cursive;
+    font-family: "Verdana";
    /* width: 450px;
     height: 270px;*/
     text-align: center;
@@ -126,9 +126,17 @@ footer
     border-style: groove;
     border-color: #38281C;
     background-color: #779981;
+    /*margin-right: 15px;*/
+    
 }
+/*Index ^*/
 
-
+/*contact*/
+#fontcontact{
+    font-family: "Verdana";  
+    font-size: 1.2em; 
+}
+/*contact^*/
 
 /* Everything below is for the photogallery page */
 .baguetteBox-button {
@@ -139,7 +147,7 @@ footer
 .gallery-container h1 {
     text-align: center;
     margin-top: 70px;
-    font-family: 'Droid Sans', sans-serif;
+    font-family: "Verdana";
     font-weight: bold;
     color: #58595a;
 }
@@ -171,6 +179,7 @@ footer
 .tz-gallery .caption{
     padding: 26px 30px;
     text-align: center;
+    font-family: "Verdana";
 }
 
 .tz-gallery .caption h3 {
@@ -191,7 +200,8 @@ footer
 	font-size: 35pt;
 	text-align: center;
 	padding-bottom: 20px;
-	font-family: "sans-serif";
+	font-family: "Verdana";
+    letter-spacing: 2px; 
 }
 #description{ /* Description */
 	font-size: 20pt;
@@ -203,7 +213,7 @@ footer
     border-bottom-style: solid;
     border-left-style: solid;
 	padding: 20px;
-	font-family: "sans-serif";
+	font-family: "Verdana";
 }	
 #list{ /* List of options */
 	padding-top: 20px;
@@ -212,7 +222,7 @@ footer
 	color: #38281C;
 	columns: 2;
 	column-gap: 45px;
-	font-family: "sans-serif";
+	font-family: "Verdana";
 }
 #description2{ /* 2nd Description */
 	font-size: 20pt;
@@ -224,7 +234,7 @@ footer
     border-bottom-style: solid;
     border-left-style: solid;
 	padding: 20px;
-	font-family: "sans-serif";
+	font-family: "Verdana";
 }
 #img1{
 	float: center;
@@ -247,12 +257,13 @@ footer
  #titled{
      font-family: "Verdana";
      font-weight: bold;
-     font-size: 1.9em;
+     font-size: 2.8em;
 }
 #aboutbody{
     font-size: 1.2em;        
     line-height: 2;
     color: #231709;
+    font-family: "Verdana";
 }
 #highlight{
     background-color: #779981; 
